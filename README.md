@@ -2,6 +2,13 @@
 
 This project is based on the [SURFnet theme](https://github.com/SURFnet/simpleSAMLphp-SURFnet) for simpleSAMLphp. This version uses [Bootstrap](http://getbootstrap.com/) for extra responsiveness!
 
+Here are some non-interactive previews of the theme. Try them at various resolutions:
+
+* [Sign in](http://adventistuniversity.github.io/themeADU/login.html)
+* [Error](http://adventistuniversity.github.io/themeADU/error.html)
+* [Change password](http://adventistuniversity.github.io/themeADU/pw_change.html)
+* [Reset password](http://adventistuniversity.github.io/themeADU/pw_reset.html)
+
 The module can be installed in simpleSAMLphp by copying it into the `modules` 
 directory.
 
