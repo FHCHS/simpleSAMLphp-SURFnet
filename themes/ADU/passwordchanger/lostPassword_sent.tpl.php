@@ -1,6 +1,6 @@
 <?php
 
-$this->data['header'] = $this->t('{passwordchanger:passwordchanger:link_lostpw}');
+$this->data['header'] = $this->t('lpw_success_head');
 $this->data['head'] = '<link rel="stylesheet" href="resources/passwordchanger.css" type="text/css">';
 $this->includeAtTemplateBase('includes/well-header.php'); ?>
 

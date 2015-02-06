@@ -1,4 +1,6 @@
-<?php $this->includeAtTemplateBase('includes/well-header.php'); ?>
+<?php 
+	$this->data['header'] = $this->t($this->data['dictTitle']);
+	$this->includeAtTemplateBase('includes/well-header.php'); ?>
 
 			<div class="text-left" style="word-wrap: break-word;">
 				<h1 class="text-center"><?php echo $this->t($this->data['dictTitle']); ?></h1>

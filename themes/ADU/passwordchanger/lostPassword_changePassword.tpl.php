@@ -1,6 +1,5 @@
 <?php
-
-$this->data['header'] = $this->t('{passwordchanger:passwordchanger:link_changepw}');
+$this->data['header'] = $this->t('lpw_head');
 $this->includeAtTemplateBase('includes/well-header.php'); ?>
 
 <?php if(isset($this->data['error'])){ ?>

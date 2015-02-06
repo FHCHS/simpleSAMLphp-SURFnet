@@ -1,5 +1,5 @@
 <?php
-$this->data['header'] = $this->t('{passwordchanger:passwordchanger:link_changepw}');
+$this->data['header'] = $this->t('cpw_head');
 $this->includeAtTemplateBase('includes/well-header.php'); ?>
 
 <h3 class="form-signin-heading text-center"><?php echo $this->t('cpw_head'); ?></h3>

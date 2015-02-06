@@ -1,4 +1,6 @@
-<?php $this->includeAtTemplateBase('includes/well-header.php'); ?>
+<?php 
+$this->data['header'] = $this->t('lpw_head');
+$this->includeAtTemplateBase('includes/well-header.php'); ?>
 
 <form method="post" action="lostPassword.php" class="form-horizontal">
 	<h3 class="form-signin-heading text-center"><?php echo $this->t('lpw_head'); ?></h3>

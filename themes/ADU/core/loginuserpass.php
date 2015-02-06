@@ -1,4 +1,6 @@
-<?php $this->includeAtTemplateBase('includes/well-header.php'); ?>
+<?php 
+	$this->data['header'] = $this->t('{login:user_pass_header}');
+	$this->includeAtTemplateBase('includes/well-header.php'); ?>
 
 			<form name="loginform" id="loginform" action="?" method="post" class="form-signin">
 				<h3 class="form-signin-heading text-center"><?php echo $this->t('{login:user_pass_header}'); ?></h3>

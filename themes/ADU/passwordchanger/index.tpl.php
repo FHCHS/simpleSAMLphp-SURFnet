@@ -1,5 +1,5 @@
 <?php
-$this->data['header'] = $this->t('{passwordchanger:passwordchanger:link_changepw}');
+$this->data['header'] = $this->t('{passwordchanger:passwordchanger:link_panel}');
 $this->includeAtTemplateBase('includes/well-header.php'); ?>
 
 <?php
@@ -32,7 +32,7 @@ elseif (isset($this->data['error']) && is_array($this->data['error'])) {
 <?php }?>
 
 <h3 class="form-signin-heading">
-	<?php echo $this->t('{passwordchanger:passwordchanger:link_panel}') ?>
+	<?php echo $this->t('{passwordchanger:passwordchanger:link_panel}'); ?>
 </h3> 
 
 <ul>
