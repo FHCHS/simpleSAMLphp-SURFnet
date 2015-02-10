@@ -8,11 +8,8 @@ if(!empty($this->data['htmlinject']['htmlContentPost'])) {
 		</div> 	<!-- end of well -->
 	</div>		<!-- end of container -->
 
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<!-- Custom Bootstrap CSS - hidden attribute CSS removed -->
+	<link rel="stylesheet" href="<?php echo SimpleSAML_Module::getModuleURL('themeADU/css/bootstrap.min.css') ?>">
 
 </body>
 </html>

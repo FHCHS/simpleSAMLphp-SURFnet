@@ -20,10 +20,11 @@
 					<?php echo $this->t('{errors:descr_' . $this->data['errorcode'] . '}'); ?>
 				</div>
 				<?php } ?>
-
+				<div hidden><label for="username"><?php echo $this->t('{login:username}'); ?></label></div>
 				<label for="username" class="sr-only"><?php echo $this->t('{login:username}'); ?></label>
 				<input type="text" name="username" id="username" class="input form-control" placeholder="Username" autofocus required tabindex="1" />
-	
+				<div hidden><br /></div>
+				<div hidden><label for="user_pass"><?php echo $this->t('{login:password}'); ?></label></div>
 				<label for="user_pass" class="sr-only"><?php echo $this->t('{login:password}'); ?></label>
 				<input type="password" name="password" id="user_pass" class="input form-control" placeholder="Password" required tabindex="2" />
 

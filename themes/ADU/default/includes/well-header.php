@@ -54,7 +54,7 @@ header('X-Frame-Options: SAMEORIGIN');
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<!-- Custom styles for this template -->
-  <link href="<?php echo SimpleSAML_Module::getModuleURL('themeADU/signin.css'); ?>" rel="stylesheet">
+  <link href="<?php echo SimpleSAML_Module::getModuleURL('themeADU/css/signin.css'); ?>" rel="stylesheet">
 </head>
 <body class="login">
 	<div id="login" class="container">
