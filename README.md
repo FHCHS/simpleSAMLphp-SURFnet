@@ -23,7 +23,7 @@ We assume simpleSAMLphp is installed in `/var/www/simplesamlphp`, see the
 You can install this theme as follows:
 
     $ cd /var/www/simplesamlphp/modules
-    $ git clone https://github.com/FHCHS/themeADU.git themeADU
+    $ git clone https://github.com/adventistuniversity/themeADU.git themeADU
     $ touch /var/www/simplesamlphp/modules/themeADU/enable
 
 Now you can edit the main configuration file to enable the theme, change the
