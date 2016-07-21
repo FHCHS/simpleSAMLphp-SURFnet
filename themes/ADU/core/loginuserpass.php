@@ -45,7 +45,7 @@
 							}
 			?>
 			<form action="https://my.adu.edu/login-help" class="form-signin" id="need-help">
-    		<button class="btn btn-lg <?php echo $button_type; ?> btn-block" type="submit">Need Help?</button>
+    		<button class="btn btn-lg <?php echo $button_type; ?> btn-block" type="submit">Login help</button>
 			</form>
 
 <?php $this->includeAtTemplateBase('includes/well-footer.php'); ?>
